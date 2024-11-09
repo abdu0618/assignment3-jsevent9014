@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/reset.css">
+
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="js/main.js" type="module"></script>
+
+</head>
+<body>
+  <header>
+    <h1>Hafidha Abdullahi</h1>
+  </header>
+
+  <nav>
+    <input id="name-input" list="names" placeholder="Search names">
+    <datalist id="names"></datalist>
+  </nav>
+  <main></main>
+
+  <template id="character-template">
+    <section class="character-container">
+      <details>
+        <summary class="name"></summary>
+        <p class="role"></p>
+        <p class="weapon"></p>
+        <p class="car"></p>
+      </details>
+    </section>
+  </template>
+
+
+</body>
+</html>

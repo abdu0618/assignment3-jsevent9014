@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  .character-container {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .character-container:nth-child(odd) {
+    background-color: #e9e9e9;
+  }
+  
+  .character {
+    text-align: left;
+  }
+  
+  details {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+  }
+  
+  details[open] {
+    background-color: pink;
+  }
+  
+  summary {
+    font-weight: bold;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
